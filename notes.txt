@@ -1,0 +1,16 @@
+Reinforcement Learning - Teaching a software agent how to behave in an environment by telling it how good it's doing.
+
+This project
+Game:
+    PyGame
+Model:
+    Pytorch
+
+Agent:
+    Training
+        Get the state of the game.
+        Predict and action with the model.
+        Get the reward, game_over_state and the score 
+        Calculate a new state of the Game
+        Keep records then...
+        Train the model
